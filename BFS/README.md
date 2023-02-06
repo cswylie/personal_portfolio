@@ -35,3 +35,7 @@ The text formatting for the input file should look something like this:
 The first set of double 0s signify where to stop when creating the graph. Each number pair before then signifies an edge on the graph.
 The second set of double 0s signify where to stop when running BFS in number pairs. The number pairs above it signify where to start in the graph, the left vertex, and where to get to in the graph, the right vertex.
 The program will print out the distances from each source vertex to its destination.
+
+The program will also use the command line to properly use the input and output file.
+- Make the program.
+- Type ./FindPath *input_file* *output_file*
