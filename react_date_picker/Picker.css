@@ -1,0 +1,42 @@
+/* Your Picker styles go here */
+
+.displayDate{
+display: flex;
+align-items: center;
+}
+
+.calendar {
+display: grid;
+grid-template-columns: repeat(7, 1fr); 
+grid-gap: 5px; 
+}
+
+.weekdays {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+text-align: center;
+font-weight: bold;
+}
+
+.day {
+padding: 5px;
+border: 1px solid #ccc;
+text-align: center;
+cursor: pointer;
+}
+
+#prev, #next {
+cursor: pointer;
+padding: 5px;
+}
+
+#display {
+flex: 1;
+text-align: center;
+font-weight: bold;
+cursor: pointer;
+}
+
+#today {
+    background-color: lavender;
+}
